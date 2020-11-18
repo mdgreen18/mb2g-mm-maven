@@ -11,7 +11,7 @@
         </xsd:appinfo>
     </xsd:annotation>
 
-    <xsd:complexType name="User">
+    <xsd:complexType name="UserCommand">
         <xsd:sequence>
             <xsd:element name="firstName" type="xsd:string"/>
             <xsd:element name="lastName" type="xsd:string"/>
